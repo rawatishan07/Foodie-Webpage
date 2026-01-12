@@ -53,7 +53,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Your Name** - Ishan Rawat
 
-**Project Link:** [https://github.com/your-username/foodie-web-project](https://github.com/rawatishan07/foodie-web-project)
+**Project Link:** [https://github.com/rawatishan07/foodie-web-project](https://github.com/rawatishan07/foodie-web-project)
 
 ---
 Developed with ❤️ by Ishan Rawat
