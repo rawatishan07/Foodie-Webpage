@@ -1,0 +1,234 @@
+body{
+    background-color: lavenderblush;
+}
+#heading{
+    background-color: rgb(207, 255, 162);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#main_page{
+    background-image: linear-gradient(to right, rgb(253, 45, 45), rgb(255, 196, 206));
+}
+.bold_para{
+    font-size: 40px;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position:sticky;
+    left:70px;
+}
+.food_img{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    height:250px;
+    width:390px;
+    top:50px;
+}
+.but1{
+    position:relative;
+    left: 70px;
+    top:-20px;
+    border-radius: 15px;
+    background-color:rgb(243, 180, 64);
+    padding: 5px;
+    cursor: pointer;
+}
+.but2{
+    position: absolute;
+    right: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.but3{
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    right: 80px
+}
+#overlap{
+    height: 40px;
+    width: 700px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    left: 190px;
+    top: -22px;
+    background-color: rgb(255, 161, 107);
+}
+.loc{
+    position: relative;
+    left: 50px;
+    top:6px;
+    padding:4px;
+    border:2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: rgb(184, 243, 245);
+}
+#options{
+    position: relative;
+    left: 160px;
+    top: 6px;
+    padding:4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:2px solid black;
+    background-color: coral;
+}
+.but4{
+    position: relative;
+    left: 270px;
+    top: 6px;
+    padding: 4px;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: rgb(133, 83, 250);
+    cursor: pointer;
+}
+#Categories{
+    align-items: center;
+    display: inline-block;
+    background-color: rgb(225, 250, 84);
+    padding-bottom: 15px;  
+}
+.items{
+    display: inline-block;
+    height: 120px;
+    width: 99px;
+    border: 2px solid black;
+    background-color: rgb(140, 176, 255);
+    text-align: center;
+    cursor:pointer;
+}
+.items:hover{
+    color: blue;
+    transform:translateY(-20px);
+    transition: 0.5s;
+}
+.but4:hover{
+    padding: 5px;
+    transition: 0.5s;
+}
+.but1:hover{
+    padding: 10px;
+    transition: 0.5s;
+}
+.but2:hover{
+    padding: 10px;
+    transition: 0.5s;
+}
+.but3:hover{
+    padding: 10px;
+    transition: 0.5s;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    transition: 0.5s;
+}
+#Restaurant{
+    background-color: lightgreen;
+    padding-bottom: 15px;
+}
+.rest{
+    margin: 0px;
+    padding: 0px;
+    height:300px;
+    width:250px;
+    border: 2px solid black;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(247, 72, 144);
+}
+.rest:hover{
+    cursor:pointer;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.rest img{
+    height: 200px;
+    width: 250px;
+}
+#Offers{
+    background-image: linear-gradient(to top, rgb(112, 255, 255), rgb(103, 103, 255));
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.off{
+    height: 70px;
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 1px;
+    display:inline-block;
+    text-align: left;
+    background-color: rgb(216, 92, 253);
+}
+.off:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+#review{
+    background-image:linear-gradient(to right, rgb(243, 243, 243), rgb(255, 112, 112));
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0px;
+    padding-top: -3px;
+}
+.rev{
+    height: 290px;
+    width: 255px;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+.rev h4{
+    text-align: right;
+}
+.rev img{
+    height: 120px; 
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+.img1{
+    height: 150px;
+    width: 250px;
+    position:absolute;
+    left: 750px;
+    top: 1700px;
+}
+#App{
+    background-color: lightcyan;
+    padding-bottom: 100px;
+}
+#App div{
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
